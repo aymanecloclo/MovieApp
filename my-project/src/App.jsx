@@ -8,7 +8,7 @@ import Profile from './components/Profile'; // Assurez-vous que le chemin est co
 import DetailsFilm from './components/DetailsFilm';
 import Login from './components/Login'; // Assurez-vous que le chemin est correct
 import Register from './components/Register';
-
+import { Footer } from 'flowbite-react';
 function App() {
   return (
     <Router>
@@ -28,6 +28,7 @@ function App() {
             }
           />
         </Routes>
+      
       </UserProvider>
     </Router>
   );

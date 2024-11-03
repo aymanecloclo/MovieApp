@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import  { Component } from 'react';
 import ShowFilmsCard from '../components/ShowFilmsCard'
 import ListCategories from '../components/ListCategories'
 
@@ -36,7 +36,7 @@ class Profile extends Component {
     return (
       <>
    
-        <div className="flex gap-0">
+        <div className="flex ">
          
           <ListCategories genres={this.state.genres}  />
           <ShowFilmsCard data={this.state.movies} />

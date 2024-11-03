@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import DetailsFilm from './DetailsFilm';
 const ShowFilmsCard=({data})=>{
     return(
-      <div className="bg-gray-900 min-h-screen p-5">
+      <div className="bg-gray-900 min-h-screen p-5 w-full">
       <h1 className="text-white text-3xl font-bold mb-8 text-center">Popular Movies</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {data.map((movie) => (
